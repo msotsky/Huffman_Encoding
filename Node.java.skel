@@ -1,0 +1,59 @@
+/**
+ * This class represents a node in a tree.
+ * Because a Node may have left and right children, it can also represent
+ * the root of a tree.
+ */
+ 
+public class Node {
+
+    /**
+     * Create a leaf node with the specified char and int.
+     * A leaf node has no children.
+     */
+    public Node(char ch, int value) {
+    }
+
+    /**
+     * Create a new Node with the specified Nodes as children.
+     * The value of this Node is the sum of the values of its to children
+     * Nodes. It has no char value.
+     */
+    public Node(Node left, Node right) {
+    }
+	
+    /**
+    * Return the value for this Node.
+    */
+    public int getValue() {
+    }
+
+    /**
+     * Return the left child Node for this Node.
+     * Return null if this is a leaf Node (there is no children).
+     */
+    public Node getLeftNode() {
+    }
+
+    /**
+     * Return the right child Node for this Node.
+     * Return null if this is a leaf Node (there is no children).
+     */
+    public Node getRightNode() {
+    }
+
+    /**
+     * Return the character for this Node.
+     * The return value for a Node with no char is implementation
+     * dependant (i.e. you, the implementer, decide).
+     */
+    public char getChar() {
+    }
+
+    /**
+     * Return true for a leaf node, false otherwise.
+     */
+    public boolean isLeaf() {
+    }
+}
+
+

@@ -1,0 +1,33 @@
+/**
+ * This class represents an encoding for a FrequencyCount.
+ * This class provides a mapping between a character and a string.
+ */
+ 
+public class Encoding {
+
+    /**
+     * Create a new encoding for this FrequencyCount.
+     * Initially, there will be no mappings between chars and strings.
+     */
+    public Encoding(FrequencyCount fcount) {
+    }
+
+    /**
+     * Set the encoding for this char to the specified string.
+     * In this assignment, the string will consist (of ones and zeros)
+     */
+    public void setCode(char ch, String string) {
+    }
+
+    /**
+     * return the code string for this character.
+     */
+    public String getCode(char ch) {
+    }
+    
+    /**
+     * Return the FrequencyCount that this encoding is for.
+     */
+    public FrequencyCount getFcount() {
+    }
+}

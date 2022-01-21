@@ -1,0 +1,15 @@
+/**
+ * This class represents a Huffman encoder.
+ */
+ 
+public class Huffman {
+
+    /**
+     * Return a Huffman encoding for the specified FrequencyCount.
+     */
+    public Encoding encode(FrequencyCount fcount) {
+    }
+}
+
+
+    
